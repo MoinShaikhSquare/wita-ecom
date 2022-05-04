@@ -14,3 +14,30 @@ a {
 * {
   box-sizing: border-box;
 }
+header {
+  background-color: black;
+  color: #fff;
+}
+.cards-wrapper {
+  background-color: #dddddb;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  border: 5px solid #dddddb;
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.card-header,
+.card-price {
+  background-color: #fff;
+  text-transform: capitalize;
+  text-align: center;
+}
